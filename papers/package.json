@@ -8,15 +8,29 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browser": {
+    "crypto": false,
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "stream": false,
+    "tls": false
+  },
   "dependencies": {
+    "framer-motion": "^11.11.1",
+    "fs": "^0.0.1-security",
+    "next": "14.2.14",
+    "papers": "file:",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.14"
+    "react-icons": "^5.3.0",
+    "react-use-measure": "^2.1.1"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.14"
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
