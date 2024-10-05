@@ -57,7 +57,7 @@ const Solution = ({ title, description, index, open, setOpen }) => {
             animate={{
               color: isOpen ? "rgba(0, 0, 0, 0)" : "rgba(0, 0, 0, 1)",
             }}
-            className="text-xl font-medium w-fit bg-black bg-clip-text"
+            className="text-xl font-medium w-fit bg-gradient-to-r from-foreground to-main bg-clip-text"
           >
             {title}
           </motion.p>
@@ -66,7 +66,7 @@ const Solution = ({ title, description, index, open, setOpen }) => {
             animate={{
               opacity: isOpen ? 1 : 0,
             }}
-            className="mt-4 bg-gradient-to-r text-l from-foreground to-main bg-clip-text text-transparent"
+            className="mt-4 text-l bg-black bg-clip-text text-transparent"
           >
             {description}
           </motion.p>

@@ -28,12 +28,14 @@ export default function Home() {
                 <div className="col-span-1 md:col-span-8">
                     <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
                         With our experience in the construction industry, our leadership team has established a reputation for excellence. 
+                        <br/> 
+                        <br/>
                         From small renovations to large-scale developments, we've successfully completed numerous projects, earning the 
                         trust of businesses, homeowners and amazing tradesmans.
                     </p>
                 </div>
                 <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
-                    You deserve the best and we're here to provide it.
+                    You deserve the best and we have what it takes.
                 </h2>
             </div>
             </Parallax>
@@ -45,7 +47,7 @@ const Parallax = ({children}) => {
   return (
     <div className=" my-4">
       <ParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        imgUrl="https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         subheading="Our Story"
         heading="Prioritizing your satisfaction."
       >

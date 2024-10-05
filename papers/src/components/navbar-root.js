@@ -32,7 +32,7 @@ const Navbar = () => {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
-        <Logo color="white" />
+        <Logo color="white" first="white" second="white" />
         <div className="hidden gap-6 lg:flex">
           <Links />
           <CTAs />

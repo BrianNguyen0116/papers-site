@@ -8,7 +8,7 @@ import Logo from "@/components/logo"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-white p-4 border-b-[1px] border-gray-200 flex items-center justify-between relative">
+    <nav className="bg-white py-4 px-6 border-b-[1px] border-gray-200 flex items-center justify-between relative">
       <NavLeft setIsOpen={setIsOpen} />
       <NavRight />
       <NavMenu isOpen={isOpen} />
@@ -60,9 +60,9 @@ const NavRight = () => {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="px-4 py-2 bg-main text-white font-medium rounded-md whitespace-nowrap"
+          className="px-4 py-2 bg-main text-white font-bold rounded-md whitespace-nowrap"
         >
-          Contact us
+          Contact
         </motion.button>
       </a>
     </div>

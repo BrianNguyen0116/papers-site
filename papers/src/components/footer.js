@@ -26,26 +26,6 @@ const Footer = () => {
           ]}
         />
 
-        <GenericColumn
-          title="Socials"
-          links={[
-            {
-              title: "Twitter",
-              href: "/#",
-              Icon: SiX,
-            },
-            {
-              title: "Instagram",
-              href: "/#",
-              Icon: SiInstagram,
-            },
-            {
-              title: "Youtube",
-              href: "/#",
-              Icon: SiYoutube,
-            },
-          ]}
-        />
       </div>
     </footer>
   );

@@ -12,8 +12,8 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
         <div className="relative z-10 flex items-center justify-center h-screen">
-          <h1 className="text-white text-xl md:text-2xl lg:text-3xl font-bold">
-            Building your vision.
+          <h1 className="text-white text-3xl md:text-2xl lg:text-5xl font-bold">
+            FROM PAPERS TO REALITY – BUILDING YOUR VISION
           </h1>
         </div>
       </div>
