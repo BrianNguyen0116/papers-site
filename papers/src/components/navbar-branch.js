@@ -27,7 +27,7 @@ const NavLeft = ({ setIsOpen }) => {
       >
         <FiMenu />
       </motion.button>
-      <Logo />
+      <Logo text={false} />
       <NavLink text="Home" href="/" />
       {LINKS.map((l) => (
         <NavLink key={l.text} text={l.text} href={l.href} />
