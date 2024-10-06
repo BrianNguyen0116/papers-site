@@ -36,7 +36,7 @@ const LogoColumn = () => {
     <div className="col-span-6 md:col-span-4">
       <Logo color={"white"}/>
       <span className="mt-3 inline-block text-xs text-zinc-400">
-        © Hover.dev - All rights reserved.
+        © Papers - All rights reserved.
       </span>
     </div>
   );
