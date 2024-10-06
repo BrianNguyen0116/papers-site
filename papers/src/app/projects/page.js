@@ -160,10 +160,4 @@ const PROJECTS = [
     location: "Toronto",
     href: "6",
   },
-  {
-    title: "Housing Project",
-    type: "Residential",
-    location: "Stouffville",
-    href: "7",
-  },
 ];
