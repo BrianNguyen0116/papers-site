@@ -7,7 +7,12 @@ export default function Home() {
     <>
       <Navbar />
       <div className="relative min-h-screen max-w-screen overflow-hidden bg-black/40">
-        <video autoPlay muted loop className="absolute inset-0 min-w-full min-h-full object-cover z-[-1]">
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
+          className="absolute inset-0 min-w-full min-h-full object-cover z-[-1] pointer-events-none">
           <source src="/media/Video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
