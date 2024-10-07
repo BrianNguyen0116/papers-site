@@ -75,7 +75,7 @@ const NavMenu = ({ isOpen }) => {
       variants={menuVariants}
       initial="closed"
       animate={isOpen ? "open" : "closed"}
-      className="absolute p-4 bg-white shadow-lg left-0 right-0 top-full origin-top flex flex-col gap-4"
+      className="absolute p-4 bg-white shadow-lg left-0 right-0 top-full origin-top flex flex-col gap-4 z-50"
     >
       <MenuLink text="Home" href="/" />
 

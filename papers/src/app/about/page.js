@@ -12,7 +12,7 @@ export default function Home() {
             <Navbar />
             <Parallax>
 
-            <div className="flex flex-col gap-8 mx-auto max-w-3xl py-12">
+            <div className="flex flex-col gap-8 mx-auto max-w-5xl px-8 py-12">
                 <h2 className="col-span-1 text-3xl md:text-4xl font-bold md:col-span-4 text-center">
                     You deserve the best and we have what it takes.
                 </h2>
@@ -143,8 +143,10 @@ const Header = () => {
   const [hover, setHover] = useState(false);
 
   return (
-    <h2 className="col-span-1 text-3xl md:text-4xl py-12 font-bold md:col-span-4 text-center">
-      Not convinced? See our&nbsp;
+    <div className="flex flex-col gap-1 md:gap-4 md:flex-row md:justify-center px-8 text-3xl md:text-4xl py-12 font-bold text-left ">
+      <span>Not convinced? </span>
+      <span>
+        See our&nbsp;
       <Link href="/projects">
         <span
           className="relative cursor-pointer"
@@ -167,7 +169,7 @@ const Header = () => {
           </span>
         </span>
       </Link>
-      
-    </h2>
+      </span> 
+    </div>
   );
 };

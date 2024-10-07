@@ -6,7 +6,7 @@ import Logo from "@/components/logo"
 const Footer = () => {
   return (
     <footer className="relative overflow-hidden py-12 bg-foreground">
-      <div className="relative z-20 grid grid-cols-12 gap-x-1.5 gap-y-6 pl-52 pr-52">
+      <div className="relative z-20 grid grid-cols-12 gap-x-1.5 gap-y-6 px-16 lg:px-40">
         <LogoColumn />
         <GenericColumn
           title="Papers"

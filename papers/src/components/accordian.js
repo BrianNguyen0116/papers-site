@@ -47,7 +47,7 @@ const Solution = ({ title, description, index, open, setOpen }) => {
       <motion.div
         initial={false}
         animate={{
-          height: isOpen ? "120px" : "72px",
+          height: isOpen ? "140px" : "72px",
         }}
         className="p-6 rounded-[7px] bg-gray-100 flex flex-col justify-between relative z-20"
       >
