@@ -86,12 +86,12 @@ const NavMenu = ({ isOpen }) => {
   );
 };
 
-const MenuLink = ({ text }) => {
+const MenuLink = ({ text, href }) => {
   return (
     <motion.a
       variants={menuLinkVariants}
       rel="nofollow"
-      href="#"
+      href={href}
       className="h-[30px] overflow-hidden font-medium text-lg flex items-start gap-2"
     >
       <motion.span variants={menuLinkArrowVariants}>
